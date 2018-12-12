@@ -1,0 +1,24 @@
+<div class="card-container">
+  
+  <mat-card *ngFor="let movie of movielist" class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title style="font-size:25px;"><b>{{movie.title}} </b></mat-card-title>
+      <mat-card-subtitle>Id: {{movie.id}}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-lg-image src="https://image.tmdb.org/t/p/w300/{{movie.poster_path}}">
+    <mat-card-content>
+      <p>
+        <b>Comment:</b> {{movie.overview}}
+      </p>
+      <p>
+          <b>Rating:</b> {{movie.vote_average}}
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-button>AddToWishList</button>
+    </mat-card-actions>
+  </mat-card>
+
+</div>
+

@@ -1,0 +1,24 @@
+#management:
+#    security:
+#        enabled: false
+#server:
+#    port: 8888
+#spring:
+#    application:
+#        name: config
+##eureka:         #tells about the Eureka server details and its refresh time
+##    instance:
+##        leaseRenewalIntervalInSeconds: 1
+##        leaseExpirationDurationInSeconds: 2
+##    client:
+##        serviceUrl:
+##            defaultZone: http://127.0.0.1:8761/eureka/
+##        healthcheck:
+##            enabled: true
+##        lease:
+##            duration: 5
+#    cloud:
+#        config:
+#            server:
+#                git:
+#                    uri: https://github.com/shalinijha812/configrepo1.git

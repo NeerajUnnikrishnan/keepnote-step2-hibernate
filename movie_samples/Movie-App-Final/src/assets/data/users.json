@@ -1,0 +1,8 @@
+[
+    {"imdbId":1,"movieTitle":"Venom","comment":"Super and Good action film","rating":"5.0","yearOfRelease":"2018"},
+    {"imdbId":2,"movieTitle":"Nota","comment":"Worst and political film","rating":"2.0","yearOfRelease":"2018"},
+    {"imdbId":3,"movieTitle":"Aravinda","comment":"SuperDuper and Good message film","rating":"5.0","yearOfRelease":"2018"},
+    {"imdbId":4,"movieTitle":"DevDas","comment":"AboveAverage and Good comedy film","rating":"3.0","yearOfRelease":"2018"},
+    {"imdbId":5,"movieTitle":"HelloGuru","comment":"Good and Good Love Story film","rating":"3.5","yearOfRelease":"2018"},
+    {"imdbId":6,"movieTitle":"FirstMan","comment":"Good and Good Space Related film","rating":"4.0","yearOfRelease":"2018"}
+]

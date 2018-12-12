@@ -1,0 +1,13 @@
+<div>
+  <div>
+    <ul>
+        <li *ngIf="selectedMovie" >
+          <h2>{{selectedMovie.movieName}}</h2>
+          <p>{{selectedMovie.rating}}</p>
+          <p>{{selectedMovie.comments}}</p>  
+          <button type="submit"  class="comp"  >Update</button>
+          <button type="submit"  class="comp"  >Delete</button>
+        </li>
+      </ul>
+    </div>
+  </div>

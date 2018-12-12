@@ -1,0 +1,25 @@
+<div class="card-container">  
+      <mat-card *ngFor="let movie of movieList" class="example-card">
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title style="font-size:25px;"><b>{{movie.movieName}} </b></mat-card-title>
+          <mat-card-subtitle>Id: {{movie.id}}</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image src="https://image.tmdb.org/t/p/w300/{{movie.imgurl}}" alt="Image not found">
+        <mat-card-content>
+          <p>
+            <b>Comment:</b> {{movie.comments}}
+          </p>
+          <p>
+              <b>Rating:</b> {{movie.rating}}
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button (click)="update(movie)">Update</button>
+          <button mat-button (click)="delete(movie)">Delete</button>
+        </mat-card-actions>
+      </mat-card>
+    
+    </div>
+    
+    
